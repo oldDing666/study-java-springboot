@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-01-helloworld" />
-        <module name="springboot-02-jsp" />
+        <module name="springboot-03-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-01-helloworld" target="1.8" />
       <module name="springboot-02-jsp" target="1.8" />
+      <module name="springboot-03-jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

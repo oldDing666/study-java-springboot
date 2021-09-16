@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StudyJavaV1.iml" filepath="$PROJECT_DIR$/StudyJavaV1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-helloworld/springboot-01-helloworld.iml" filepath="$PROJECT_DIR$/springboot-01-helloworld/springboot-01-helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-02-jsp/springboot-02-jsp.iml" filepath="$PROJECT_DIR$/springboot-02-jsp/springboot-02-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-03-jpa/springboot-03-jpa.iml" filepath="$PROJECT_DIR$/springboot-03-jpa/springboot-03-jpa.iml" />
     </modules>
   </component>
 </project>

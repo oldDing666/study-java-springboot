@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot-02-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-03-jpa" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -9,6 +10,7 @@
         <option value="$PROJECT_DIR$/springboot01helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-crud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-jpa/pom.xml" />
       </list>
     </option>
   </component>
