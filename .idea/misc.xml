@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-02-jsp" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-03-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-04-mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-05-mybatis-xml" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-mybatis-xml/pom.xml" />
       </list>
     </option>
   </component>
