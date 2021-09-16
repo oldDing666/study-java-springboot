@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-01-helloworld" />
         <module name="springboot-03-jpa" />
+        <module name="springboot-04-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-01-helloworld" target="1.8" />
       <module name="springboot-02-jsp" target="1.8" />
       <module name="springboot-03-jpa" target="1.8" />
+      <module name="springboot-04-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

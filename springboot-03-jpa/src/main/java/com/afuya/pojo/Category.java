@@ -9,8 +9,19 @@ import javax.persistence.*;
  */
 
 /**
+ * 要先建立一个表
+ * +----+-----------+
+ * | id | name      |
+ * +----+-----------+
+ * | 1  | category1 |
+ * | 2  | category2 |
+ * | 3  | category3 |
+ * | 4  | category4 |
+ * | 5  | category5 |
+ * +----+-----------+
  * @Entity 表示这是一个实体类
  * @Table(name = "category_") 表示这个类对应的表名是category_
+ *
  */
 @Entity
 @Table(name = "category_")
