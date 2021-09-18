@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-05-mybatis-xml" />
-        <module name="springboot-01-helloworld" />
-        <module name="springboot-06-crud-jpa" />
         <module name="springboot-03-jpa" />
         <module name="springboot-04-mybatis" />
+        <module name="springboot-06-crud-jpa" />
+        <module name="springboot-01-helloworld" />
+        <module name="springboot-05-mybatis-xml" />
+        <module name="springboot-07-crud-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="springboot-04-mybatis" target="1.8" />
       <module name="springboot-05-mybatis-xml" target="1.8" />
       <module name="springboot-06-crud-jpa" target="1.8" />
+      <module name="springboot-07-crud-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
