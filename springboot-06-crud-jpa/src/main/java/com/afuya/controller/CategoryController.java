@@ -37,4 +37,32 @@ public class CategoryController {
         m.addAttribute("page", page);
         return "listCategory";
     }
+
+    @RequestMapping("/addCategory")
+    public String addCategory(Category category) {
+        categoryDAO.save(category);
+        // 这里如果不使用重定向的话，访问的地址仍然是：http://localhost:8080/addCategory
+        //        return "listCategory";
+        // 使用重定向后，访问
+        return "redirect:listCategory";
+    }
+
+    @RequestMapping("/deleteCategory")
+    public String deleteCategory(Category category) {
+        categoryDAO.delete(category.getId());
+        return "redirect:listCategory";
+    }
+
+    @RequestMapping("/editCategory")
+    public String editCategory(int id, Model m) {
+        Category c = categoryDAO.findOne(id);
+        m.addAttribute("c", c);
+        return "editCategory";
+    }
+
+    @RequestMapping("/updateCategory")
+    public String updateCategory(Category category) {
+        categoryDAO.save(category);
+        return "redirect:listCategory";
+    }
 }

@@ -3,6 +3,7 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
+
 <div align="center">
 
 </div>
@@ -20,7 +21,10 @@
                 <td>${c.id}</td>
                 <td>${c.name}</td>
                 <td><a href="editCategory?id=${c.id}">编辑</a></td>
-                <td><a href="deleteCategory?id=${c.id}">删除</a></td>
+<%--                <td><a href="deleteCategory?id=${c.id}">删除</a></td>--%>
+                <td>
+                    <a href="javascript:if(window.confirm('是否删除该分类？')){window.location.href='deleteCategory?id=${c.id}'}">删除</a>
+                </td>
             </tr>
         </c:forEach>
 
@@ -52,9 +56,7 @@
     </div>
     <br>
     <form action="addCategory" method="post">
-
         name: <input name="name"> <br>
         <button type="submit">提交</button>
-
     </form>
 </div>
