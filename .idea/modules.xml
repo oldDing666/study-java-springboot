@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-03-jpa/springboot-03-jpa.iml" filepath="$PROJECT_DIR$/springboot-03-jpa/springboot-03-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-04-mybatis/springboot-04-mybatis.iml" filepath="$PROJECT_DIR$/springboot-04-mybatis/springboot-04-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-05-mybatis-xml/springboot-05-mybatis-xml.iml" filepath="$PROJECT_DIR$/springboot-05-mybatis-xml/springboot-05-mybatis-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-crud-jpa/springboot-06-crud-jpa.iml" filepath="$PROJECT_DIR$/springboot-06-crud-jpa/springboot-06-crud-jpa.iml" />
     </modules>
   </component>
 </project>
