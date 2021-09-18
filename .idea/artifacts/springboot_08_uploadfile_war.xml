@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-08-uploadfile:war">
+    <output-path>$PROJECT_DIR$/springboot-08-uploadfile/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-08-uploadfile</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-08-uploadfile-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-08-uploadfile:war exploded" />
+    </root>
+  </artifact>
+</component>

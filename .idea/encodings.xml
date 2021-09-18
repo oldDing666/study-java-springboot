@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/springboot-05-mybatis-xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-crud-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-07-crud-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-uploadfile" charset="UTF-8" />
   </component>
 </project>
