@@ -25,6 +25,7 @@ public interface ProductMapper {
     @Select("select * from product where id = #{id}")
     public Product edit(Product p);
 
+    // 返回值类型要是int，不能是User，不然会报错500
     @Update("update product set name = #{name}, price = #{price} where id = #{id}")
     public int update(Product p);
 }
