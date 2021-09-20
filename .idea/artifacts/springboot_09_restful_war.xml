@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-09-restful:war">
+    <output-path>$PROJECT_DIR$/springboot-09-restful/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-09-restful</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-09-restful-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-09-restful:war exploded" />
+    </root>
+  </artifact>
+</component>
