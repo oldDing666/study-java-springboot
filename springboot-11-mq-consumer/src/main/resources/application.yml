@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: 120.25.159.173
+    port: 5672
+    username: guest
+    password: 123456
+    virtual-host: /
+logging:
+  level:
+    com.interview.mq.listener.MyMessageListener: info
